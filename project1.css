@@ -1,0 +1,210 @@
+/*Navigation Bar*/
+ul {
+  list-style-type: none;
+  width: 235px;
+  float:right;
+  padding: 5px;
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  padding-top: 15px;
+  font-size: 24px;
+}
+li a {
+  display: block;
+  border-color:black;
+  border-width: 1px;
+  border-style: solid;
+  color: black;
+  padding: 1px;
+  text-decoration: none;
+  background-color: lightblue;
+}
+li a:hover {
+    background-color:rgba(220, 20, 60, 0.65);
+}
+
+/*Styling Top Bar*/
+.topBar{
+    display: block;
+    color: black;
+    text-align: center;
+    background-color: lightblue;
+}
+.topText {
+    font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+/*Borders*/
+.pictureBorder{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 15px;
+}
+.mainBorder{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 15px;
+    padding: 5px;
+    height: 100%;
+    width: 100%;
+}
+.graphBorder{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+}
+.genderGraphBorder{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 15px;
+    height: 50%;
+    width: 50%;
+    text-align: center;
+    margin: 10px;
+}
+
+/*Background Colors*/
+.profileBack {
+    background-color: rgba(135, 206, 250, 0.81);
+}
+.underrepBack{
+    background-color:rgba(0, 174, 255, 0.314);
+}
+.selectionBack{
+    background-color: rgba(135, 206, 250, 0.81);
+}
+.researchBack{
+    background-color:rgba(255, 182, 193, 0.094);
+}
+.frameBack{
+    background-color:rgba(255, 182, 193, 0.179)
+}
+.draftBack{
+    background-color:rgba(255, 182, 193, 0.347);
+}
+.feedBack{
+    background-color:rgba(255, 182, 193, 0.5);
+}
+.datavizBack{
+    background-color:rgba(255, 182, 193, 0.645);
+}
+.presentBack{
+    background-color:rgba(255, 182, 193, 0.803);
+}
+.finalBack{
+    background-color:rgba(255, 182, 193, 0.904);
+}
+.reflectBack{
+    background-color:rgb(255, 182, 193);
+}
+
+/*Background Images*/
+.backgroundBriefback{
+    background-image: url("images/shirley_young.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:local;
+    background-position: center;
+    height:100%;
+    width:100%;
+}
+.backgroundUnderrep{
+    background-image: url("images/shirley_obama.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:local;
+    background-position: center;
+    height:100%;
+    width:100%;
+}
+.backgroundContribution{
+    background-image: url("images/shirley_hard.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:local;
+    background-position: center;
+    height:100%;
+    width:100%;
+}
+.backgroundSelection{
+    background-image: url("images/shirley_solo.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:local;
+    background-position: center;
+    height:100%;
+    width:100%;
+}
+.backgroundHome{
+    background-image: url("images/shirley_hof.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:local;
+    background-position: center;
+    height:700px;
+    width:200%;
+}
+
+/*Fonts*/
+.titleFont{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    padding: 10px;
+    font-size: 40px;
+}
+.bottomFont{
+    font-size: 10px;
+}
+.boldFont{
+    font-weight:bold;
+    color: crimson;
+}
+.textFont{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 10px;
+}
+.largeFont{
+    font-size: 26px;
+    padding: 10px;
+}
+.projectFont{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding: 10px;
+}
+.processFont{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    padding: 10px;
+    font-size: 30px;
+}
+.bold{
+    font-weight: bold;
+}
+.underline{
+    text-decoration: underline;
+}
+.subtitle{
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+/*PDF Style*/
+#pdfEmbed {
+  width: 100%;
+  height: 100%;
+}
